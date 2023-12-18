@@ -16,7 +16,7 @@ const Info = () => {
                 <h2 className='ff-poppins fs-xl text-center fw-bold'>Choose your next event</h2>
                 <Row>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -67,7 +67,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -118,7 +118,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -169,7 +169,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -220,7 +220,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -271,7 +271,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -322,7 +322,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -373,7 +373,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -424,7 +424,7 @@ const Info = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 pt-4 pe-4 pb-5 ps-4'>
+                        <Card className='rounded-5 mt-4 p-4'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
