@@ -114,8 +114,11 @@
 
 .common-cards:hover {
     box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.10);
+    border: 1px solid transparent;
 }
-
+.opacity-60{
+    opacity: 60%;
+}
 /* hero */
 .HeroBg-img {
     background-image: url('./assets/images/bg-img.png');

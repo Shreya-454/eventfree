@@ -16,7 +16,7 @@ const Info = () => {
                 <h2 className='ff-poppins fs-xl text-center fw-bold'>Choose your next event</h2>
                 <Row>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -27,7 +27,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,13 +61,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -78,7 +78,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +93,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,13 +112,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -129,7 +129,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -144,7 +144,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -163,13 +163,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -180,7 +180,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -195,7 +195,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -214,13 +214,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -231,7 +231,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -246,7 +246,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -265,13 +265,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -282,7 +282,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -297,7 +297,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -316,13 +316,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -333,7 +333,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -348,7 +348,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -367,13 +367,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -384,7 +384,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -399,7 +399,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -418,13 +418,13 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
                     </Col>
                     <Col lg={4} md={6}>
-                        <Card className='rounded-5 mt-4 p-4'>
+                        <Card className='rounded-5 mt-4 p-4 common-cards'>
                             <Card.Img className=' p-2 rounded-3' variant='top' src={img1} />
                             <Card.Body>
                                 <Card.Title className='ff-poppins fs-lg mb-3 fw-semibold'>Lorem ipsum dolar sit de</Card.Title>
@@ -435,7 +435,7 @@ const Info = () => {
                                             <path d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z" fill="black" />
                                         </g>
                                     </svg>
-                                    <Card.Text className='ff-poppins fs-md1'>10/02/2022</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>10/02/2022</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-3 '>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -450,7 +450,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>Mumbai</Card.Text>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>Mumbai</Card.Text>
                                 </div>
                                 <div className='d-flex gap-2 align-items-center mb-4'>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -469,7 +469,7 @@ const Info = () => {
                                         </defs>
                                     </svg>
 
-                                    <Card.Text className='ff-poppins fs-md1'>1,080</Card.Text></div>
+                                    <Card.Text className='ff-poppins fs-md1 opacity-60'>1,080</Card.Text></div>
                                 <Button className='ff-poppins'>Go Check</Button>
                             </Card.Body>
                         </Card>
